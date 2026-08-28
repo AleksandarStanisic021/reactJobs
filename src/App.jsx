@@ -2,6 +2,7 @@ import "./App.css";
 
 const App = () => {
   const names = ["sasa", "pera", "mika"];
+  const logenin = true;
 
   return (
     <>
@@ -13,6 +14,7 @@ const App = () => {
           <li key={n}> {n}</li>
         ))}
       </div>
+      {logenin && <h1>Sasa</h1>}
     </>
   );
 };
