@@ -13,7 +13,11 @@ const App = () => {
         {names.map((n) => (
           <li key={n}> {n}</li>
         ))}
-        <button onClick={() => setLogedin(!logedin)}>SHOW/HIDE</button>
+        <button
+          style={{ background: "red", color: "white", padding: "1rem" }}
+          onClick={() => setLogedin(!logedin)}>
+          SHOW/HIDE
+        </button>
       </div>
       {logedin && <h1>Sasa</h1>}
     </>
