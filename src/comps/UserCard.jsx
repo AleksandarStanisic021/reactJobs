@@ -26,10 +26,12 @@ const UserCard = ({ name, role }) => {
         hello
       </button>
 
-      {log ?? <h1>{name}</h1>}
+      {log && <h1>{name}</h1>}
 
       <div>
-        <button onClick={() => !setLog()}> SHOW/HIDE</button>
+        <button onClick={() => setLog((prev) => !prev)}>
+          {log ? "HIDE" : "SHOW"}
+        </button>
       </div>
     </Card>
   );
