@@ -3,8 +3,9 @@ import "./App.css";
 const App = () => {
   return (
     <>
-      <h1>hi all</h1>
+      <h1>Hi all</h1>
       <p>How's going?</p>
+      <p>Sum: {2 + 3}</p>
     </>
   );
 };
