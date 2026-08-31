@@ -1,5 +1,6 @@
 import "./App.css";
 import Welcome from "./comps/Welcome";
+import UserCard from "./comps/UserCard";
 
 const styles = {
   backgroundColor: "red",
@@ -14,6 +15,8 @@ const App = () => {
       <Welcome name="Pera" />
       <Welcome name="Mika" />
       <p>How's going?</p>
+      <UserCard name={"Sasa"} role={"Art"} />
+      <UserCard name={"Mika"} role={"Sound"} />
       <p>Sum: {2 + 3}</p>
     </>
   );
