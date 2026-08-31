@@ -1,6 +1,7 @@
 import "./App.css";
 import Welcome from "./comps/Welcome";
 import UserCard from "./comps/UserCard";
+import Fruits from "./comps/Fruits";
 
 const styles = {
   backgroundColor: "red",
@@ -19,6 +20,7 @@ const App = () => {
       <UserCard name={"Mika"} role={"Sound"} />
       <UserCard name={"Pera"} role={"Actor"} />
       <p>Sum: {2 + 3}</p>
+      <Fruits />
     </>
   );
 };
