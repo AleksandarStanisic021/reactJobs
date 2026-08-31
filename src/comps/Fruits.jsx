@@ -1,7 +1,15 @@
 import React from "react";
 
 const Fruits = () => {
-  const fruits = ["banana", "paprika", "berry", "jagoda", "visnja", "tresnja"];
+  const fruits = [
+    "banana",
+    "paprika",
+    "berry",
+    "jagoda",
+    "visnja",
+    "tresnja",
+    "redberry",
+  ];
 
   return (
     <>

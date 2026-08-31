@@ -18,8 +18,6 @@ const App = () => {
       <p>How's going?</p>
       <UserCard name={"Sasa"} role={"Art"} />
       <UserCard name={"Mika"} role={"Sound"} />
-      <UserCard name={"Pera"} role={"Actor"} />
-      <p>Sum: {2 + 3}</p>
       <Fruits />
     </>
   );
