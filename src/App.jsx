@@ -6,12 +6,12 @@ const styles = {
 };
 
 const App = () => {
-  n(
+  return (
     <>
       <h1 style={styles}>Hi all</h1>
       <p>How's going?</p>
       <p>Sum: {2 + 3}</p>
-    </>,
+    </>
   );
 };
 export default App;
