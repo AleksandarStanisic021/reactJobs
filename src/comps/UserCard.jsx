@@ -1,6 +1,9 @@
+import { useState } from "react";
 import Card from "../Card";
 
 const UserCard = ({ name, role }) => {
+  const [log, setLog] = useState(false);
+
   const greet = (name) => {
     console.log(`hi ${name}`);
   };
@@ -17,11 +20,17 @@ const UserCard = ({ name, role }) => {
         <p>Position {role}</p>
       </div>
       <button
-        onClick={(e) => {
+        onClick={() => {
           greet(name);
         }}>
         hello
       </button>
+
+      {log ?? <h1>{name}</h1>}
+
+      <div>
+        <button onClick={() => !setLog()}> SHOW/HIDE</button>
+      </div>
     </Card>
   );
 };
