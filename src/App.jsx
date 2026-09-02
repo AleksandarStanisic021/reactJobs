@@ -6,6 +6,7 @@ import TodoList from "./comps/TodoList";
 import React from "react";
 import FilterList from "./comps/FilteringList";
 import DynamicList from "./comps/DynamicList";
+import NameForm from "./comps/NameForm";
 
 const styles = {
   backgroundColor: "red",
@@ -23,6 +24,7 @@ const App = () => {
       <TodoList />
       <FilterList />
       <DynamicList />
+      <NameForm />
     </>
   );
 };
