@@ -2,6 +2,9 @@ import "./App.css";
 import Welcome from "./comps/Welcome";
 import UserCard from "./comps/UserCard";
 import Fruits from "./comps/Fruits";
+import TodoList from "./comps/TodoList";
+import React from "react";
+import FilterList from "./comps/FilteringList";
 
 const styles = {
   backgroundColor: "red",
@@ -13,12 +16,11 @@ const App = () => {
     <>
       <h1 style={styles}>Hi all</h1>
       <Welcome name="Sasa" />
-      <Welcome name="Pera" />
-      <Welcome name="Mika" />
-      <p>How's going?</p>
       <UserCard name={"Sasa"} role={"Art"} />
       <UserCard name={"Mika"} role={"Sound"} />
       <Fruits />
+      <TodoList />
+      <FilterList />
     </>
   );
 };
