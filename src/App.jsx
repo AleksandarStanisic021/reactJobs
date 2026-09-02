@@ -5,6 +5,7 @@ import Fruits from "./comps/Fruits";
 import TodoList from "./comps/TodoList";
 import React from "react";
 import FilterList from "./comps/FilteringList";
+import DynamicList from "./comps/DynamicList";
 
 const styles = {
   backgroundColor: "red",
@@ -21,6 +22,7 @@ const App = () => {
       <Fruits />
       <TodoList />
       <FilterList />
+      <DynamicList />
     </>
   );
 };
